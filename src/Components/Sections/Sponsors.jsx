@@ -14,11 +14,11 @@ export default function Sponsors() {
   }, []);
 
   return (
-    <div className=" mt-16 py-8">
+    <div className="mt-16 py-8">
       <div className="max-w-6xl mx-auto px-4" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="800">
         <h2 className="text-3xl font-bold text-center mb-8">Our Sponsors</h2>
-        <p>We collaborate with them to make your experience better.</p>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-10 mt-16">
+        <p className="opacity-90 text-center">We collaborate with them to make your experience better.</p>
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-10 mt-16">
           {/* Sponsor 1 */}
           <div className="flex justify-center items-center">
             <img src={tripadvisor} alt="Sponsor 1" className="h-20" />
@@ -35,6 +35,7 @@ export default function Sponsors() {
           <div className="flex justify-center items-center">
             <img src={express} alt="Sponsor 4" className="h-20" />
           </div>
+          {/* Sponsor 5 */}
           <div className="flex justify-center items-center">
             <img src={booking} alt="Sponsor 5" className="h-20" />
           </div>
@@ -43,5 +44,3 @@ export default function Sponsors() {
     </div>
   );
 }
-
-

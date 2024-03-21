@@ -8,18 +8,35 @@ export default function Hero() {
   }, []);
 
   return (
-    <div id="home" className="h-screen w-screen">
-      <div className="flex flex-col items-center h-full mt-16" data-aos="fade-down" data-aos-duration="800">
-        <h1 className="text-4xl font-bold text-center mb-8 mt-52" >
-          Embark on Your Next Journey with Us!
+    <div
+      id='home'
+      className='h-screen w-screen flex items-center justify-center sm:mb-10 '
+    >
+      <div
+        className='flex flex-col items-center h-auto '
+        data-aos='fade-down'
+        data-aos-duration='800'
+      >
+        <h1 className='text-6xl font-semibold text-center mb-7 '>
+          Embark on Your Next Journey <br /> with Us!
         </h1>
-        <p className="text-s font-normal mx-52"> Explorease helps in elevating Travel Experiences with Digital Innovation. Our platform stands at the forefront of travel technology, seamlessly blending adventure with convenience, all while upholding the highest standards of ethical and regulatory integrity.</p>
-        <div className="flex justify-center mt-12">
-          <a href="/about#about">
-            <button className="bg-[#181d22] hover:bg-[#76ABAE] text-white font-semibold py-2 px-4 mr-4 rounded-lg">Learn More</button>
+        <p className=' font-thin mx-auto w-[55%] opacity-90'>
+          {" "}
+          Explorease helps in elevating Travel Experiences with Digital
+          Innovation. Our platform stands at the forefront of travel technology,
+          seamlessly blending adventure with convenience, all while upholding
+          the highest standards of ethical and regulatory integrity.
+        </p>
+        <div className='flex justify-center mt-7'>
+          <a href='/about#about'>
+            <button className='bg-[#181d22] hover:bg-[#76ABAE] text-white font-semibold py-2 px-4 mr-4 rounded-lg'>
+              Learn More
+            </button>
           </a>
-          <a href="/about#contact">
-            <button className="bg-[#181d22]  hover:bg-[#76ABAE] text-white font-semibold py-2 px-4 rounded-lg">Contact Us</button>
+          <a href='/about#contact'>
+            <button className='bg-[#181d22]  hover:bg-[#76ABAE] text-white font-semibold py-2 px-4 rounded-lg'>
+              Contact Us
+            </button>
           </a>
         </div>
       </div>
