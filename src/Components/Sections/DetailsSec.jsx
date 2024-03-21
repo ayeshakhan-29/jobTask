@@ -3,7 +3,7 @@ import world from "../../assets/world.png";
 
 export default function DetailsSec() {
     return (
-        <div className="h-screen w-screen flex">
+        <div id="about" className="h-screen w-screen flex">
             <div className="grid grid-cols-2 gap-2">
                 <div className="ml-20">
                     <h1 className="text-3xl font-semibold text-center mb-8 ">

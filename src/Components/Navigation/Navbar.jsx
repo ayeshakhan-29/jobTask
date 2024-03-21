@@ -10,13 +10,13 @@ export default function Navbar() {
           <img src={logo} alt="Logo" className="logo" />
         </div>
         <div className="flex gap-14 mr-12 mb-6">
-          <a href="#" className="text-lg text-slate-500">
+          <a href="#home" className="text-lg text-slate-500">
             Home
           </a>
-          <a href="#" className="text-lg text-slate-500">
+          <a href="#about" className="text-lg text-slate-500">
             About
           </a>
-          <a href="#" className="text-lg text-slate-500">
+          <a href="#services" className="text-lg text-slate-500">
             Services
           </a>
           <a href="#" className="text-lg text-slate-500">
