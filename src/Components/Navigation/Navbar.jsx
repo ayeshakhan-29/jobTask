@@ -4,7 +4,7 @@ import "./../../../src/App.css"
 
 export default function Navbar() {
   return (
-    <div className="w-full h-20 py-6 px-4 fixed top-0 bg-transparent z-10">
+    <div className="w-full h-20 py-6 px-4 fixed bg-gray z-10">
       <div className="flex justify-between items-center">
         <div className="text-2xl font-bold text-black ml-32">
           <img src={logo} alt="Logo" className="logo" />
