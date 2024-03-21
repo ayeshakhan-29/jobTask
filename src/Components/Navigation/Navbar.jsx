@@ -19,7 +19,7 @@ export default function Navbar() {
           <a href="#services" className="text-lg">
             Services
           </a>
-          <a href="#" className="text-lg">
+          <a href="#contact" className="text-lg">
             Contact
           </a>
         </div>
