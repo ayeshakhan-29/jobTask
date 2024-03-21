@@ -29,12 +29,12 @@ export default function Hero() {
         </p>
         <div className='flex justify-center mt-7'>
           <a href='/about#about'>
-            <button className='bg-[#181d22] hover:bg-[#76ABAE] text-white font-semibold py-2 px-4 mr-4 rounded-lg'>
+            <button className='bg-[#181d22] hover:bg-[#76ABAE] text-white font-semibold py-2 px-4 mr-4 rounded-lg transition-all duration-300 ease-in-out'>
               Learn More
             </button>
           </a>
           <a href='/about#contact'>
-            <button className='bg-[#181d22]  hover:bg-[#76ABAE] text-white font-semibold py-2 px-4 rounded-lg'>
+            <button className='bg-[#181d22]  hover:bg-[#76ABAE] text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300 ease-in-out'>
               Contact Us
             </button>
           </a>
