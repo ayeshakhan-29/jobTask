@@ -10,7 +10,7 @@ export default function DetailsSec() {
     }, []);
 
     return (
-        <div id="about" className="h-screen w-screen flex">
+        <div id="about" className="h-1/2 w-screen flex mb-20">
             <div className="grid grid-cols-2 gap-2" >
                 <div className="ml-20" data-aos="fade-right" data-aos-offset="300"
                     data-aos-easing="ease-in-sine" data-aos-duration="500">

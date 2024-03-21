@@ -4,22 +4,22 @@ import "./../../../src/App.css"
 
 export default function Navbar() {
   return (
-    <div className="w-full border h-full py-6 px-4 fixed top-0 bg-transparent">
+    <div className="w-full h-20 py-6 px-4 fixed top-0 bg-transparent z-10">
       <div className="flex justify-between items-center">
-        <div className="text-2xl font-bold text-black ml-12">
+        <div className="text-2xl font-bold text-black ml-32">
           <img src={logo} alt="Logo" className="logo" />
         </div>
-        <div className="flex gap-14 mr-12 mb-6">
-          <a href="#home" className="text-lg text-slate-500">
+        <div className="flex gap-14 mr-32 mb-6 font-medium text-white">
+          <a href="#home" className="text-lg  ">
             Home
           </a>
-          <a href="#about" className="text-lg text-slate-500">
+          <a href="#about" className="text-lg ">
             About
           </a>
-          <a href="#services" className="text-lg text-slate-500">
+          <a href="#services" className="text-lg">
             Services
           </a>
-          <a href="#" className="text-lg text-slate-500">
+          <a href="#" className="text-lg">
             Contact
           </a>
         </div>
