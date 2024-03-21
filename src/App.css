@@ -26,10 +26,6 @@
   width: auto; /* Adjust the width as needed */
   height: 250px; 
 }
-.section-container {
-  max-width: 600px; /* Adjust as needed */
-}
-
 .section-img {
   width: 70px; /* Adjust image width as needed */
   height: auto; /* Maintain aspect ratio */

@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Card from "../../Components/Sections/Card";
 
 export default function Services() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
         <div id="services" className="w-full h-full flex justify-center items-center py-10 px-4">
-            <div className="flex flex-col items-center gap-4">
+            <div className="flex flex-col items-center gap-4" data-aos="fade-up"
+                data-aos-duration="3000">
                 <h1 className="text-3xl font-bold mb-2">Our Services</h1>
                 <p className="w-1/2 mb-1 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dignissimos similique obcaecati! Mollitia, soluta corrupti, distinctio dicta impedit eveniet cupiditate consectetur ratione quasi atque nisi, nostrum minima ullam earum eius.</p>
                 <div className="flex flex-wrap gap-4 justify-center items-center">

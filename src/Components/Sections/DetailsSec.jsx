@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import world from "../../assets/world.png";
 
 export default function DetailsSec() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
         <div id="about" className="h-screen w-screen flex">
-            <div className="grid grid-cols-2 gap-2">
-                <div className="ml-20">
+            <div className="grid grid-cols-2 gap-2" >
+                <div className="ml-20" data-aos="fade-right" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" data-aos-duration="500">
                     <h1 className="text-3xl font-semibold text-center mb-8 ">
                         Discover Your Perfect Destination with Explorease
                     </h1>
