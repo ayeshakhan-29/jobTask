@@ -45,8 +45,7 @@ export default function Reviews() {
             <div className='flex flex-col items-center gap-4'>
                 <h1 className='text-3xl font-bold mb-2 mt-20'>What Our Customers Say</h1>
                 <p className='w-1/2 mb-1 text-center mt-3 font-thin'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-                    dignissimos similique!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 </p>
             </div>
             <div className='w-3/4 mx-auto mt-10'>

@@ -12,14 +12,14 @@ export default function Contact() {
     }, []);
 
     return (
-        <div id="contact" className="container mx-auto py-12 mt-16">
-            <div data-aos="fade-up" data-aos-duration="500">
+        <div id="contact" className="container mx-auto py-12 mt-16 ">
+            <div data-aos="fade-up" data-aos-duration="300">
                 <h2 className="text-3xl font-bold text-center mb-4">Get in Touch</h2>
                 <p className="text-lg text-center mx-8 text-gray-400 mb-8">Have any questions or inquiries? We'd love to hear from you!</p>
             </div>
-            <div className="flex flex-col md:flex-row gap-8">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-8 mx-4">
                 {/* Send Us a Message Section */}
-                <div className="w-3/4 md:w-1/2 mx-10 py-10 px-2 md:mx-32 md:px-10 md:py-10 bg-[#181d22]  rounded-lg " data-aos="fade-right" data-aos-duration="800">
+                <div className="w-full md:w-1/2 px-2 py-4 md:mx-32 md:px-10 md:py-10 bg-[#181d22]  rounded-lg " data-aos="fade-right" data-aos-duration="800">
                     <h3 className="text-2xl font-bold mb-4">Send Us a Message</h3>
                     <form className="justify-center px-3">
                         <div className="mb-4">
@@ -39,9 +39,9 @@ export default function Contact() {
                 </div>
 
                 {/* Contact Information Section */}
-                <div className="w-full md:w-1/2 mx-4 md:mx-0">
+                <div className="w-full md:w-1/2 mx-4 md:mx-0 text-center">
                     <h3 className="text-2xl font-bold my-10 md:text-left text-center">Contact Information</h3>
-                    <ul className="mb-2 text-left">
+                    <ul className="mb-2 items-center justify-center md:text-left">
                         <li className="flex items-center gap-2">
                             <img src={location} alt="location" className="h-8 mr-2" />
                             <span>29 Main St, Lahore, Pakistan</span>

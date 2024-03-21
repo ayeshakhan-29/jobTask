@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <div
       id='home'
-      className='h-screen w-screen flex items-center justify-center sm:mb-10 '
+      className='h-screen w-screen mt-[8rem] md:mt-0 flex items-center justify-center sm:mb-10 '
     >
       <div
         className='flex flex-col items-center h-auto '
